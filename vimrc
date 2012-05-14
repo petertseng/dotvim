@@ -40,6 +40,10 @@ nmap <silent> <C-N> :silent noh<CR>
 
 set relativenumber
 
+" Show tabs with double-arrow
+set list
+set listchars=tab:»·
+
 syn on
 set bg=dark
 set t_Co=256
