@@ -56,7 +56,6 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
 augroup FILES
-    au FileType make   set noexpandtab shiftwidth=8
     au FileType lisp   set shiftwidth=2 tabstop=2
     au FileType scheme set shiftwidth=2 tabstop=2
     au FileType ruby   set shiftwidth=2 tabstop=2
