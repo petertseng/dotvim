@@ -42,7 +42,7 @@ set relativenumber
 
 " Show tabs with double-arrow
 set list
-set listchars=tab:Â»Â·
+set listchars=tab:»·
 
 syn on
 set bg=dark
