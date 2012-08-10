@@ -5,8 +5,10 @@ call pathogen#infect()
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set autoindent
-set smartindent
+
+if has("autocmd")
+    filetype plugin indent on
+endif
 
 " Ctags stuff
 nnoremap <F12> :!ctags -R<CR>
