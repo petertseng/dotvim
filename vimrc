@@ -1,5 +1,4 @@
 " My vimrc
-" 2012-05-03
 
 call pathogen#infect()
 
