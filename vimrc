@@ -61,6 +61,4 @@ augroup FILES
     au FileType scheme set shiftwidth=2 tabstop=2
     au FileType ruby   set shiftwidth=2 tabstop=2
     au FileType ocaml  set shiftwidth=2 tabstop=2
-" NO smartindent, you don't get to indent my # lines!
-    au FileType python inoremap # X#
 augroup END
