@@ -20,9 +20,8 @@ nnoremap ; :
 " Show partial command in status line
 set showcmd
 
-" line and column markers
-set cursorline
-set cursorcolumn
+" colorscheme for indent-guides
+colorscheme default
 
 " F2 for paste mode
 nnoremap <F2> :set invpaste paste?<CR>
