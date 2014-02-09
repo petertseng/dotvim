@@ -59,4 +59,5 @@ augroup FILES
     au FileType scheme set shiftwidth=2 tabstop=2
     au FileType ruby   set shiftwidth=2 tabstop=2
     au FileType ocaml  set shiftwidth=2 tabstop=2
+    au FileType scala  set shiftwidth=2 tabstop=2
 augroup END
