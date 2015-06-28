@@ -2,8 +2,8 @@
 
 call pathogen#infect()
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 if has("autocmd")
@@ -55,10 +55,5 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
 augroup FILES
-    au FileType lisp   set shiftwidth=2 tabstop=2
-    au FileType scheme set shiftwidth=2 tabstop=2
-    au FileType ruby   set shiftwidth=2 tabstop=2
-    au FileType ocaml  set shiftwidth=2 tabstop=2
-    au FileType scala  set shiftwidth=2 tabstop=2
-    au Filetype go     set noexpandtab shiftwidth=2 tabstop=2
+  au FileType go set noexpandtab
 augroup END
