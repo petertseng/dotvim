@@ -50,6 +50,9 @@ set t_Co=256
 
 set visualbell
 
+" lazyredraw helps with performance sometimes
+set lazyredraw
+
 " Trailing whitespace.
 highlight ExtraWhitespace ctermbg=red guibg=red
 " Apply match to all windows:
