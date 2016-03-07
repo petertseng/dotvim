@@ -52,7 +52,9 @@ set visualbell
 
 " Trailing whitespace.
 highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
+" Apply match to all windows:
+" http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 
 augroup FILES
   au FileType go set noexpandtab
