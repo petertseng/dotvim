@@ -58,4 +58,5 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 
 augroup FILES
   au FileType go set noexpandtab
+  au FileType go set nolist
 augroup END
