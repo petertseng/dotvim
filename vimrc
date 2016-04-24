@@ -66,3 +66,10 @@ augroup END
 
 " Default is go, which does `go build`, which is too slow.
 let g:syntastic_go_checkers = ['govet', 'golint']
+
+" We run govet on all files in the current directory
+" (this is useful to make it aware of the entire package),
+" however we only show errors for the current file.
+autocmd FileType go
+  \ let b:syntastic_go_govet_quiet_messages =
+  \ { '!file:p': '\V' . escape(expand('<afile>:p'), '\') }
