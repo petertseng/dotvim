@@ -27,7 +27,7 @@
 	url = https://github.com/ervandew/supertab
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
+	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
