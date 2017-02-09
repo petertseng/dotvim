@@ -6,6 +6,11 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Allow backspaces past start of insert
+" NOTE: Some systems already turn this on by default (check /etc/vimrc)
+" However, some do not, so let's explicitly turn it on for those that don't.
+set backspace=indent,eol,start
+
 if has("autocmd")
     filetype plugin indent on
 endif
