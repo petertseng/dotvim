@@ -46,6 +46,9 @@ nmap <silent> <C-N> :silent noh<CR>
 set number
 set relativenumber
 
+" F3: no numbers -> absolute -> relative + absolute
+nnoremap <F3> :let [&nu, &rnu] = [!&rnu, &nu+&rnu==1]<CR>
+
 " Show tabs with double-arrow
 set list
 set listchars=tab:»·
