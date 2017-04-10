@@ -43,6 +43,7 @@ set hlsearch
 set incsearch
 nmap <silent> <C-N> :silent noh<CR>
 
+set number
 set relativenumber
 
 " Show tabs with double-arrow
