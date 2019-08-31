@@ -1,42 +1,42 @@
 [submodule "vim-pathogen"]
-	path = vim-pathogen
+	path = pack/public/opt/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
+	path = pack/public/start/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+	path = pack/public/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "bundle/vim-easymotion"]
-	path = bundle/vim-easymotion
+	path = pack/public/start/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
 [submodule "bundle/vim-indent-guides"]
-	path = bundle/vim-indent-guides
+	path = pack/public/start/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = pack/public/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
+	path = pack/public/start/auto-pairs
 	url = git://github.com/jiangmiao/auto-pairs.git
 [submodule "bundle/vim-endwise"]
-	path = bundle/vim-endwise
+	path = pack/public/start/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
 [submodule "bundle/supertab"]
-	path = bundle/supertab
+	path = pack/public/start/supertab
 	url = https://github.com/ervandew/supertab
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
+	path = pack/public/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/rust.vim"]
-	path = bundle/rust.vim
+	path = pack/public/start/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
 [submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
+	path = pack/public/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+	path = pack/public/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "bundle/vim-crystal"]
-	path = bundle/vim-crystal
+	path = pack/public/start/vim-crystal
 	url = https://github.com/rhysd/vim-crystal.git

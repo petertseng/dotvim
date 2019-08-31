@@ -1,6 +1,10 @@
 " My vimrc
 
-call pathogen#infect()
+if !has("packages")
+  runtime pack/public/opt/vim-pathogen/autoload/pathogen.vim
+  execute pathogen#infect("pack/public/start/{}")
+  execute pathogen#helptags()
+endif
 
 set tabstop=2
 set shiftwidth=2
