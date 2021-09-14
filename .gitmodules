@@ -13,9 +13,6 @@
 [submodule "bundle/vim-indent-guides"]
 	path = pack/public/start/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
-[submodule "bundle/vim-fugitive"]
-	path = pack/public/start/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/auto-pairs"]
 	path = pack/public/start/auto-pairs
 	url = git://github.com/jiangmiao/auto-pairs.git
