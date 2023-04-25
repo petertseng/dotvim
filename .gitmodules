@@ -22,9 +22,6 @@
 [submodule "bundle/supertab"]
 	path = pack/public/start/supertab
 	url = https://github.com/ervandew/supertab
-[submodule "bundle/syntastic"]
-	path = pack/public/start/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/rust.vim"]
 	path = pack/public/start/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
@@ -37,3 +34,6 @@
 [submodule "bundle/vim-crystal"]
 	path = pack/public/start/vim-crystal
 	url = https://github.com/rhysd/vim-crystal.git
+[submodule "pack/public/start/ale"]
+	path = pack/public/start/ale
+	url = https://github.com/dense-analysis/ale.git
