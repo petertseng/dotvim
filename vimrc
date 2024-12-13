@@ -77,7 +77,4 @@ augroup FILES
   au FileType go set nolist
 augroup END
 
-" Default is go, which does `go build`, which is too slow.
-let g:syntastic_go_checkers = ['govet', 'golint']
-
 let g:ruby_indent_assignment_style = 'variable'
